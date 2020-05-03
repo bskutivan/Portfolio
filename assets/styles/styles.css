@@ -1,0 +1,55 @@
+body {
+  background-color: #222831;
+}
+
+header {
+  background: #30475E;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px 0 15px 15px;
+  color: #F2A365;
+}
+
+#githubUsername {
+  color: #F2A365;
+}
+
+.hero {
+  background-image: url("../images/BANNER-redwoods_national_park_5.jpg");
+  background-size: cover;
+  background-position: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  min-height: 45vh;
+  width: 100%;
+}
+
+footer {
+  background: #30475E;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px 0 15px 15px;
+  color: #F2A365;
+}
+
+footer a {
+  color: #F2A365;
+}
+/*# sourceMappingURL=styles.css.map */

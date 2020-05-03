@@ -1,0 +1,44 @@
+$primary: #222831;
+$secondary: #30475E;
+$tertiary: #F2A365;
+$final: #ECECEC;
+
+body {
+    background-color: $primary;
+}
+
+header {
+    background: $secondary;
+    display:flex;
+    justify-content: space-between;
+    padding: 15px 0 15px 15px;
+    color: $tertiary;
+}
+
+#githubUsername {
+    color: $tertiary;
+}
+
+.hero {
+    background-image: url("../images/BANNER-redwoods_national_park_5.jpg");
+    background-size: cover;
+    background-position: 75%;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    min-height: 45vh;
+    width:100%;
+}
+
+footer {
+    background: $secondary;
+    display:flex;
+    justify-content: space-between;
+    padding: 15px 0 15px 15px;
+    color: $tertiary;
+    a {
+        color: $tertiary;
+    }
+}
