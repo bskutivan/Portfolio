@@ -59,6 +59,10 @@ header {
     }
 }
 
+#projectsLabel {
+    text-shadow: $secondary 3px 3px;
+}
+
 #projectContainer {
     height: 200px;
     padding-bottom: 50px;

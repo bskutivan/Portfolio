@@ -71,6 +71,10 @@ header {
           box-shadow: #30475E 6px 6px;
 }
 
+#projectsLabel {
+  text-shadow: #30475E 3px 3px;
+}
+
 #projectContainer {
   height: 200px;
   padding-bottom: 50px;
