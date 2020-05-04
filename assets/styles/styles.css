@@ -16,6 +16,8 @@ header {
           justify-content: space-between;
   padding: 15px 0 15px 15px;
   color: #F2A365;
+  border-bottom: solid;
+  border-color: #F2A365;
 }
 
 #githubUsername {
@@ -39,6 +41,8 @@ header {
           align-items: flex-start;
   min-height: 45vh;
   width: 100%;
+  border-bottom: double 10px;
+  border-color: #F2A365;
 }
 
 #aboutMeContainer {
@@ -63,6 +67,8 @@ header {
   border-radius: 10px;
   background-color: #30475E;
   padding: 25px;
+  -webkit-box-shadow: #30475E 6px 6px;
+          box-shadow: #30475E 6px 6px;
 }
 
 #projectContainer {
@@ -134,7 +140,7 @@ header {
   background-size: cover;
   height: 100%;
   width: 100%;
-  background-position: 50%;
+  background-position: 1%;
   border: solid;
   border-color: #F2A365;
   border-radius: 25px;
