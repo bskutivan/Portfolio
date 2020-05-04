@@ -73,6 +73,7 @@ header {
 
 #projectContainer {
   height: 200px;
+  padding-bottom: 50px;
 }
 
 #project1 {
